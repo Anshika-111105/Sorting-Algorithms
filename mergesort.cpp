@@ -1,11 +1,5 @@
 /*Merge sort is a sorting algorithm that follows the divide-and-conquer approach. It works by recursively dividing the input array into
-smaller subarrays and sorting those subarrays then merging them back together to obtain the sorted array.
-
-Time Complexity:
-Best Case: O(n log n), When the array is already sorted or nearly sorted.
-Average Case: O(n log n), When the array is randomly ordered.
-Worst Case: O(n log n), When the array is sorted in reverse order.
-*/
+smaller subarrays and sorting those subarrays then merging them back together to obtain the sorted array.*/
 /*FEATURES:
 1.stable
 2.it is not implace
