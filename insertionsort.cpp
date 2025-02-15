@@ -1,4 +1,3 @@
-//Time complexity=n^2
 /*Selection sort is a simple and efficient sorting algorithm that works by repeatedly selecting
  the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list. 
 */
@@ -9,7 +8,6 @@ void insertionSort(int arr[], int n)
     for (int i = 1; i < n; ++i) {
         int key = arr[i];
         int j = i - 1;
-
         /* Move elements of arr[0..i-1], that are
            greater than key, to one position ahead
            of their current position */
